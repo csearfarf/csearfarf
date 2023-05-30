@@ -18,7 +18,9 @@
 	background: #172131;
 }
 
-
+.d-none{
+	display:none !important;
+}
 
 
 @media only screen and (min-width: 360px) {

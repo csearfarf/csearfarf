@@ -574,9 +574,9 @@
 						</div>
 						<div class="col-md-6 ">
 
-							<form name="contact" id="contact" method="POST" data-netlify-recaptcha="true"
+							<form name="contact" id="contact" method="POST" data-netlify-honeypot="bot-field"
 								data-netlify="true">
-
+								<input type="text" class="form-control d-none" id="bot-field" name="bot-field">
 								<div class="form-group">
 									<label for="name">Name</label>
 									<input type="text" class="form-control" id="name" name="name">
